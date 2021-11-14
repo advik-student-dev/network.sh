@@ -19,13 +19,18 @@ cd network.sh
 sudo mv network_work.sh ~
 <enter your login password>
 cd ~
-
+  
+You can delete the folder named network.sh if you want to clear space
+Terminal way -
+sudo rm -rf network.sh
+<Enter pasword>
+  
+ 
 And, your done
 to test this out, open terminal again and type-
 sh network.sh 
 
 or just double click on your file in finder (not sure if this will work cause never tried it)
-  
 
 it will restart your network service and you will be disconnected and a few seconds later, you will reconnect to the internet.
 
